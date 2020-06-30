@@ -1,0 +1,415 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #999999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, :after {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_logo {
+    background: #f6f9f9
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.top-content a {
+    text-decoration: none;
+    color: #2d3950
+}
+
+.email {
+    margin-left: auto;
+}
+
+.top-content_logo {
+    display: flex;
+    align-items: center;
+}
+
+.top-content_logo p {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #2d3950;
+    font-weight: 600;
+}
+
+.header {
+    background: url(img/img1.jpg) no-repeat center center/ cover;
+}
+
+.top-content_text {
+    text-align: center;
+    color: #fff;
+    padding: 70px 20px 100px;
+    position: relative;
+}
+
+.top-content_text h1 {
+    font-size: 120px;
+}
+
+.top-content_text h1:after {
+    content: "";
+    width: 4em;
+    height: 2px;
+    background: #ddd;
+    display: block;
+    margin: -20px auto;
+}
+
+.top-content_text p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.arrow {
+    top: 85%;
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    margin-left: -13px;
+}
+
+.top_btn {
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+
+.top_btn:hover {
+    background: #096ca8;
+}
+
+.design {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.about-design {
+    text-align: center;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.about-design_title, .greeting_title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #2d3950;
+}
+
+.greeting, .feature, .works, .message {
+    padding: 60px 0;
+}
+
+.greeting_title {
+    text-align: center;
+}
+
+.greeting-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px;
+    align-items: center;
+}
+
+.greeting-content img {
+    width: 50%;
+    max-width: 500px;
+}
+
+.greeting_text {
+    width: 50%;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.features-content_item h3 {
+    margin: 25px 0;
+    font-size: 22px;
+    color: #3b465c;
+}
+
+.features-content_item {
+    width: 25%
+}
+
+.features-content_item p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.6;
+}
+
+.works, .greeting {
+    background: #f6f9f9;
+}
+
+.works-content_show {
+    text-align: center;
+}
+
+.works-content_title {
+    margin: 0 20px 10px;
+    font-size: 40px;
+    color: #2d3950;
+}
+
+.works-content_text {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.work_pic {
+    display: block;
+    position: relative;
+}
+
+.works-content_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work_pic img {
+    padding: 10px;
+}
+
+.works-content_block {
+    width: 100%;
+    overflow: hidden;
+}
+
+.works-content_block a {
+    position: relative;
+}
+
+.works-content_block a span {
+    display: none;
+    background: #5fc3ff;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    opacity: 90%;
+}
+
+.works-content_block span i {
+    font-size: 50px;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    top: 45%;
+    left: 45%;
+    color: #fff
+}
+
+.works-content_block a:hover span {
+    display: block;
+}
+
+#commentform {
+    max-width: 555px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    background: transparent;
+    color: #999;
+    font-family: 'Lato', sans-serif;
+}
+
+.message_form-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.message_form-bottom p {
+    opacity: 70%;
+    font-size: 15px;
+}
+
+.formtext {
+    display: block;
+    border: 1px solid #999;
+    box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.11);
+    padding: 10px 20px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 15px;
+    transition: all 0.2s linear;
+}
+
+.formtext:hover {
+    color: #fff;
+    border: 1px solid #fff
+}
+
+#comment {
+    height: 160px;
+}
+
+#submit {
+    background: #15a4fa;
+    border: none;
+    box-shadow: 0px 2px 0 1px #1e81bd;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    width: 140px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+#submit:hover {
+    background: #1e81bd;
+    box-shadow: 0px 2px 0 1px #1e81bd;
+}
+
+#subscribe {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.message {
+    background: url(img/img2.jpg) no-repeat center/ cover;
+}
+
+.message-content {
+    color: #fff;
+}
+
+.message_support {
+    text-align: center;
+}
+
+.message_support-title {
+    font-size: 41px;
+    font-weight: normal;
+}
+
+.message_support-text {
+    font-size: 15px;
+    color: #8a8c8f;
+    margin: 15px 0 40px 0;
+}
+
+.footer {
+    background: #f6f9f9;
+    padding: 20px 0;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.footer_content-text {
+    font-size: 15px;
+    color: #acacac;
+}
+
+.fa-facebook-f {
+    background: #3b5998;
+}
+
+.fa-twitter {
+    background: #55acee;
+}
+
+.fa-google-plus-g {
+    background: #dd4b39;
+}
+
+.fa-linkedin-in {
+    background: #0976b4;
+}
+
+@media screen and (max-width: 768px) {
+    .greeting-content, .features-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .greeting_text {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .greeting-content img {
+        width: 100%;
+    }
+    .features-content_item {
+        margin: 0 auto 40px;
+        width: 60%;
+    }
+    .design, .greeting, .feature, .works {
+        padding: 30px 0;
+    }
+    .message {
+        padding: 30px;
+    }
+    .top-content_text h1 {
+        font-size: 70px;
+    }
+    .footer_content {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #submit, .footer_content-social {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top-content_logo p {
+        font-size: 18px;
+    }
+    .top-content a {
+        font-size: 13px
+    }
+    .about-design_title, .greeting_title, .works-content_title {
+        font-size: 30px;
+    }
+    .works-content_block {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
